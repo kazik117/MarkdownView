@@ -1,16 +1,17 @@
 package us.feras.mdv.demo;
 
 import us.feras.mdv.MarkdownView;
-import android.app.Activity;
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.app.ComponentActivity;
+
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class MarkdownThemesActivity extends AppCompatActivity implements
+public class MarkdownThemesActivity extends ComponentActivity implements
 		OnItemSelectedListener {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
