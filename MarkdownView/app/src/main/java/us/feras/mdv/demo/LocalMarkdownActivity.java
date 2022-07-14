@@ -1,12 +1,11 @@
 package us.feras.mdv.demo;
 
 import us.feras.mdv.MarkdownView;
-import android.app.Activity;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.Window;
 
-public class LocalMarkdownActivity extends AppCompatActivity {
+import android.os.Bundle;
+import androidx.core.app.ComponentActivity;
+
+public class LocalMarkdownActivity extends ComponentActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

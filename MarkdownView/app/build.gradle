@@ -1,13 +1,14 @@
-apply plugin: 'com.android.application'
+plugins {
+    id('com.android.application')
+}
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "us.feras.mdv.demo"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 28
         versionCode 2
         versionName "1.1"
     }
@@ -20,8 +21,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.0'
-    compile project(':markdownview')
+    implementation "androidx.activity:activity:1.2.4"
+    implementation project(':markdownview')
 }

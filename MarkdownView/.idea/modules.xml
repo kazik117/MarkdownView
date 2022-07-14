@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MarkdownView.iml" filepath="$PROJECT_DIR$/MarkdownView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/markdownview/markdownview.iml" filepath="$PROJECT_DIR$/markdownview/markdownview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MarkdownView.iml" filepath="$PROJECT_DIR$/.idea/modules/MarkdownView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MarkdownView.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.iml" filepath="$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/markdownview/MarkdownView.markdownview.unitTest.iml" />
     </modules>
   </component>
 </project>
