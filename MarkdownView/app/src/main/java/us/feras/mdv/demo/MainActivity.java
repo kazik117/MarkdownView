@@ -1,11 +1,12 @@
 package us.feras.mdv.demo;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.core.app.ComponentActivity;
+
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ComponentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
